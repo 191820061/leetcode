@@ -1,3 +1,5 @@
 C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/CMakeFiles/greedy.dir
+C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/CMakeFiles/longestPalindrome.dir
+C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/CMakeFiles/maxBinTree.dir
 C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

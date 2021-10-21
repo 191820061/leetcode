@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/13047/Desktop/leetcode/greedy/maxArea.cpp" "C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/CMakeFiles/greedy.dir/maxArea.cpp.obj"
-  "C:/Users/13047/Desktop/leetcode/greedy/test.cpp" "C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/CMakeFiles/greedy.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

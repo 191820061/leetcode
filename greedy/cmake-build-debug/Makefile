@@ -128,6 +128,56 @@ greedy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\greedy.dir\build.make CMakeFiles/greedy.dir/build
 .PHONY : greedy/fast
 
+#=============================================================================
+# Target rules for targets named longestPalindrome
+
+# Build rule for target.
+longestPalindrome: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 longestPalindrome
+.PHONY : longestPalindrome
+
+# fast build rule for target.
+longestPalindrome/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/build
+.PHONY : longestPalindrome/fast
+
+#=============================================================================
+# Target rules for targets named maxBinTree
+
+# Build rule for target.
+maxBinTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maxBinTree
+.PHONY : maxBinTree
+
+# fast build rule for target.
+maxBinTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxBinTree.dir\build.make CMakeFiles/maxBinTree.dir/build
+.PHONY : maxBinTree/fast
+
+longestPalindrome.obj: longestPalindrome.cpp.obj
+.PHONY : longestPalindrome.obj
+
+# target to build an object file
+longestPalindrome.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/longestPalindrome.cpp.obj
+.PHONY : longestPalindrome.cpp.obj
+
+longestPalindrome.i: longestPalindrome.cpp.i
+.PHONY : longestPalindrome.i
+
+# target to preprocess a source file
+longestPalindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/longestPalindrome.cpp.i
+.PHONY : longestPalindrome.cpp.i
+
+longestPalindrome.s: longestPalindrome.cpp.s
+.PHONY : longestPalindrome.s
+
+# target to generate assembly for a file
+longestPalindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/longestPalindrome.cpp.s
+.PHONY : longestPalindrome.cpp.s
+
 maxArea.obj: maxArea.cpp.obj
 .PHONY : maxArea.obj
 
@@ -152,29 +202,29 @@ maxArea.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\greedy.dir\build.make CMakeFiles/greedy.dir/maxArea.cpp.s
 .PHONY : maxArea.cpp.s
 
-test.obj: test.cpp.obj
-.PHONY : test.obj
+maxBinTree.obj: maxBinTree.cpp.obj
+.PHONY : maxBinTree.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\greedy.dir\build.make CMakeFiles/greedy.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+maxBinTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxBinTree.dir\build.make CMakeFiles/maxBinTree.dir/maxBinTree.cpp.obj
+.PHONY : maxBinTree.cpp.obj
 
-test.i: test.cpp.i
-.PHONY : test.i
+maxBinTree.i: maxBinTree.cpp.i
+.PHONY : maxBinTree.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\greedy.dir\build.make CMakeFiles/greedy.dir/test.cpp.i
-.PHONY : test.cpp.i
+maxBinTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxBinTree.dir\build.make CMakeFiles/maxBinTree.dir/maxBinTree.cpp.i
+.PHONY : maxBinTree.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+maxBinTree.s: maxBinTree.cpp.s
+.PHONY : maxBinTree.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\greedy.dir\build.make CMakeFiles/greedy.dir/test.cpp.s
-.PHONY : test.cpp.s
+maxBinTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxBinTree.dir\build.make CMakeFiles/maxBinTree.dir/maxBinTree.cpp.s
+.PHONY : maxBinTree.cpp.s
 
 # Help Target
 help:
@@ -185,12 +235,17 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... greedy
+	@echo ... longestPalindrome
+	@echo ... maxBinTree
+	@echo ... longestPalindrome.obj
+	@echo ... longestPalindrome.i
+	@echo ... longestPalindrome.s
 	@echo ... maxArea.obj
 	@echo ... maxArea.i
 	@echo ... maxArea.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... maxBinTree.obj
+	@echo ... maxBinTree.i
+	@echo ... maxBinTree.s
 .PHONY : help
 
 

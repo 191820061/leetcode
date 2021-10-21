@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/greedy.dir/maxArea.cpp.obj"
-  "CMakeFiles/greedy.dir/test.cpp.obj"
   "greedy.exe"
   "greedy.exe.manifest"
   "greedy.pdb"
