@@ -7,3 +7,4 @@ add_executable(greedy maxArea.cpp )
 
 add_executable(longestPalindrome longestPalindrome.cpp)
 add_executable(maxBinTree maxBinTree.cpp)
+add_executable(maxWay maxWay.cpp)

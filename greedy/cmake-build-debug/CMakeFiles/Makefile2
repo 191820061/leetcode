@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = C:\Users\13047\Desktop\leetcode\greedy\cmake-build-debug
 all: CMakeFiles/greedy.dir/all
 all: CMakeFiles/longestPalindrome.dir/all
 all: CMakeFiles/maxBinTree.dir/all
+all: CMakeFiles/maxWay.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ preinstall:
 clean: CMakeFiles/greedy.dir/clean
 clean: CMakeFiles/longestPalindrome.dir/clean
 clean: CMakeFiles/maxBinTree.dir/clean
+clean: CMakeFiles/maxWay.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -154,6 +156,32 @@ maxBinTree: CMakeFiles/maxBinTree.dir/rule
 CMakeFiles/maxBinTree.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxBinTree.dir\build.make CMakeFiles/maxBinTree.dir/clean
 .PHONY : CMakeFiles/maxBinTree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/maxWay.dir
+
+# All Build rule for target.
+CMakeFiles/maxWay.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\13047\Desktop\leetcode\greedy\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target maxWay"
+.PHONY : CMakeFiles/maxWay.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maxWay.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\13047\Desktop\leetcode\greedy\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/maxWay.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\13047\Desktop\leetcode\greedy\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/maxWay.dir/rule
+
+# Convenience name for target.
+maxWay: CMakeFiles/maxWay.dir/rule
+.PHONY : maxWay
+
+# clean rule for target.
+CMakeFiles/maxWay.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/clean
+.PHONY : CMakeFiles/maxWay.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

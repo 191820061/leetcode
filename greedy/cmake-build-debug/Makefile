@@ -154,6 +154,19 @@ maxBinTree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxBinTree.dir\build.make CMakeFiles/maxBinTree.dir/build
 .PHONY : maxBinTree/fast
 
+#=============================================================================
+# Target rules for targets named maxWay
+
+# Build rule for target.
+maxWay: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maxWay
+.PHONY : maxWay
+
+# fast build rule for target.
+maxWay/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/build
+.PHONY : maxWay/fast
+
 longestPalindrome.obj: longestPalindrome.cpp.obj
 .PHONY : longestPalindrome.obj
 
@@ -226,6 +239,30 @@ maxBinTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxBinTree.dir\build.make CMakeFiles/maxBinTree.dir/maxBinTree.cpp.s
 .PHONY : maxBinTree.cpp.s
 
+maxWay.obj: maxWay.cpp.obj
+.PHONY : maxWay.obj
+
+# target to build an object file
+maxWay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/maxWay.cpp.obj
+.PHONY : maxWay.cpp.obj
+
+maxWay.i: maxWay.cpp.i
+.PHONY : maxWay.i
+
+# target to preprocess a source file
+maxWay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/maxWay.cpp.i
+.PHONY : maxWay.cpp.i
+
+maxWay.s: maxWay.cpp.s
+.PHONY : maxWay.s
+
+# target to generate assembly for a file
+maxWay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/maxWay.cpp.s
+.PHONY : maxWay.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -237,6 +274,7 @@ help:
 	@echo ... greedy
 	@echo ... longestPalindrome
 	@echo ... maxBinTree
+	@echo ... maxWay
 	@echo ... longestPalindrome.obj
 	@echo ... longestPalindrome.i
 	@echo ... longestPalindrome.s
@@ -246,6 +284,9 @@ help:
 	@echo ... maxBinTree.obj
 	@echo ... maxBinTree.i
 	@echo ... maxBinTree.s
+	@echo ... maxWay.obj
+	@echo ... maxWay.i
+	@echo ... maxWay.s
 .PHONY : help
 
 
