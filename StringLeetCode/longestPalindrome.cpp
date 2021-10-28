@@ -4,8 +4,8 @@
 using namespace std;
 
 string longestPalindrome(string s) {
-    int n = s.size();
-    if (n==1){
+    int n = (int)s.size();
+    if (n == 1) {
         return s;
     }
     int status[n][n];
@@ -38,7 +38,7 @@ string longestPalindrome(string s) {
     return s.substr(begin, maxLen);
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     string word;
     cin >> word;
     cout << longestPalindrome(word) << endl;
