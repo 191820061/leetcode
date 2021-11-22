@@ -1,4 +1,23 @@
-//
-// Created by 13047 on 2021/11/10.
-//
+#include <iostream>
 
+using namespace std;
+
+struct ListNode {
+    int val;
+    ListNode *next;
+
+    ListNode() : val(0), next(nullptr) {}
+
+    ListNode(int x) : val(x), next(nullptr) {}
+
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+ListNode *removeNthFromEnd(ListNode *head, int n) {
+    if (head->next == nullptr) {
+        return nullptr;
+    }
+    ListNode *left = head;
+    ListNode *right = head->next;
+
+}

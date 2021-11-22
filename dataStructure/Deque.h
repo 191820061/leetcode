@@ -51,6 +51,7 @@ public:
         return sentinel->next->item;
     }
 
+
     void addLast(T value) {
         size++;
         sentinel->prev->next = new Node<T>(value, sentinel);
