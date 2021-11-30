@@ -129,6 +129,19 @@ greedy/fast:
 .PHONY : greedy/fast
 
 #=============================================================================
+# Target rules for targets named miniNum
+
+# Build rule for target.
+miniNum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 miniNum
+.PHONY : miniNum
+
+# fast build rule for target.
+miniNum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniNum.dir\build.make CMakeFiles/miniNum.dir/build
+.PHONY : miniNum/fast
+
+#=============================================================================
 # Target rules for targets named longestPalindrome
 
 # Build rule for target.
@@ -140,6 +153,19 @@ longestPalindrome: cmake_check_build_system
 longestPalindrome/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/build
 .PHONY : longestPalindrome/fast
+
+#=============================================================================
+# Target rules for targets named preorder
+
+# Build rule for target.
+preorder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preorder
+.PHONY : preorder
+
+# fast build rule for target.
+preorder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preorder.dir\build.make CMakeFiles/preorder.dir/build
+.PHONY : preorder/fast
 
 #=============================================================================
 # Target rules for targets named maxBinTree
@@ -155,6 +181,19 @@ maxBinTree/fast:
 .PHONY : maxBinTree/fast
 
 #=============================================================================
+# Target rules for targets named water
+
+# Build rule for target.
+water: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 water
+.PHONY : water
+
+# fast build rule for target.
+water/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\water.dir\build.make CMakeFiles/water.dir/build
+.PHONY : water/fast
+
+#=============================================================================
 # Target rules for targets named maxWay
 
 # Build rule for target.
@@ -166,6 +205,56 @@ maxWay: cmake_check_build_system
 maxWay/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/build
 .PHONY : maxWay/fast
+
+#=============================================================================
+# Target rules for targets named activity
+
+# Build rule for target.
+activity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 activity
+.PHONY : activity
+
+# fast build rule for target.
+activity/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\activity.dir\build.make CMakeFiles/activity.dir/build
+.PHONY : activity/fast
+
+#=============================================================================
+# Target rules for targets named treasure
+
+# Build rule for target.
+treasure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 treasure
+.PHONY : treasure
+
+# fast build rule for target.
+treasure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\treasure.dir\build.make CMakeFiles/treasure.dir/build
+.PHONY : treasure/fast
+
+activity.obj: activity.cpp.obj
+.PHONY : activity.obj
+
+# target to build an object file
+activity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\activity.dir\build.make CMakeFiles/activity.dir/activity.cpp.obj
+.PHONY : activity.cpp.obj
+
+activity.i: activity.cpp.i
+.PHONY : activity.i
+
+# target to preprocess a source file
+activity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\activity.dir\build.make CMakeFiles/activity.dir/activity.cpp.i
+.PHONY : activity.cpp.i
+
+activity.s: activity.cpp.s
+.PHONY : activity.s
+
+# target to generate assembly for a file
+activity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\activity.dir\build.make CMakeFiles/activity.dir/activity.cpp.s
+.PHONY : activity.cpp.s
 
 longestPalindrome.obj: longestPalindrome.cpp.obj
 .PHONY : longestPalindrome.obj
@@ -263,6 +352,102 @@ maxWay.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxWay.dir\build.make CMakeFiles/maxWay.dir/maxWay.cpp.s
 .PHONY : maxWay.cpp.s
 
+miniNum.obj: miniNum.cpp.obj
+.PHONY : miniNum.obj
+
+# target to build an object file
+miniNum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniNum.dir\build.make CMakeFiles/miniNum.dir/miniNum.cpp.obj
+.PHONY : miniNum.cpp.obj
+
+miniNum.i: miniNum.cpp.i
+.PHONY : miniNum.i
+
+# target to preprocess a source file
+miniNum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniNum.dir\build.make CMakeFiles/miniNum.dir/miniNum.cpp.i
+.PHONY : miniNum.cpp.i
+
+miniNum.s: miniNum.cpp.s
+.PHONY : miniNum.s
+
+# target to generate assembly for a file
+miniNum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniNum.dir\build.make CMakeFiles/miniNum.dir/miniNum.cpp.s
+.PHONY : miniNum.cpp.s
+
+preorder.obj: preorder.cpp.obj
+.PHONY : preorder.obj
+
+# target to build an object file
+preorder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preorder.dir\build.make CMakeFiles/preorder.dir/preorder.cpp.obj
+.PHONY : preorder.cpp.obj
+
+preorder.i: preorder.cpp.i
+.PHONY : preorder.i
+
+# target to preprocess a source file
+preorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preorder.dir\build.make CMakeFiles/preorder.dir/preorder.cpp.i
+.PHONY : preorder.cpp.i
+
+preorder.s: preorder.cpp.s
+.PHONY : preorder.s
+
+# target to generate assembly for a file
+preorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preorder.dir\build.make CMakeFiles/preorder.dir/preorder.cpp.s
+.PHONY : preorder.cpp.s
+
+treasure.obj: treasure.cpp.obj
+.PHONY : treasure.obj
+
+# target to build an object file
+treasure.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\treasure.dir\build.make CMakeFiles/treasure.dir/treasure.cpp.obj
+.PHONY : treasure.cpp.obj
+
+treasure.i: treasure.cpp.i
+.PHONY : treasure.i
+
+# target to preprocess a source file
+treasure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\treasure.dir\build.make CMakeFiles/treasure.dir/treasure.cpp.i
+.PHONY : treasure.cpp.i
+
+treasure.s: treasure.cpp.s
+.PHONY : treasure.s
+
+# target to generate assembly for a file
+treasure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\treasure.dir\build.make CMakeFiles/treasure.dir/treasure.cpp.s
+.PHONY : treasure.cpp.s
+
+water.obj: water.cpp.obj
+.PHONY : water.obj
+
+# target to build an object file
+water.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\water.dir\build.make CMakeFiles/water.dir/water.cpp.obj
+.PHONY : water.cpp.obj
+
+water.i: water.cpp.i
+.PHONY : water.i
+
+# target to preprocess a source file
+water.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\water.dir\build.make CMakeFiles/water.dir/water.cpp.i
+.PHONY : water.cpp.i
+
+water.s: water.cpp.s
+.PHONY : water.s
+
+# target to generate assembly for a file
+water.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\water.dir\build.make CMakeFiles/water.dir/water.cpp.s
+.PHONY : water.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -271,10 +456,18 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... activity
 	@echo ... greedy
 	@echo ... longestPalindrome
 	@echo ... maxBinTree
 	@echo ... maxWay
+	@echo ... miniNum
+	@echo ... preorder
+	@echo ... treasure
+	@echo ... water
+	@echo ... activity.obj
+	@echo ... activity.i
+	@echo ... activity.s
 	@echo ... longestPalindrome.obj
 	@echo ... longestPalindrome.i
 	@echo ... longestPalindrome.s
@@ -287,6 +480,18 @@ help:
 	@echo ... maxWay.obj
 	@echo ... maxWay.i
 	@echo ... maxWay.s
+	@echo ... miniNum.obj
+	@echo ... miniNum.i
+	@echo ... miniNum.s
+	@echo ... preorder.obj
+	@echo ... preorder.i
+	@echo ... preorder.s
+	@echo ... treasure.obj
+	@echo ... treasure.i
+	@echo ... treasure.s
+	@echo ... water.obj
+	@echo ... water.i
+	@echo ... water.s
 .PHONY : help
 
 

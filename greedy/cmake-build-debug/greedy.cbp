@@ -59,6 +59,48 @@
 					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="miniNum">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/miniNum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 miniNum"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniNum/fast">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/miniNum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 miniNum/fast"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="longestPalindrome">
 				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/longestPalindrome.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
@@ -96,6 +138,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestPalindrome/fast"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="preorder">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/preorder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 preorder"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="preorder/fast">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/preorder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 preorder/fast"/>
 					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -143,11 +227,43 @@
 					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="water">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/water.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 water"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="water/fast">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/water.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 water/fast"/>
 					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -195,6 +311,100 @@
 					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="activity">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/activity.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 activity"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="activity/fast">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/activity.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 activity/fast"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treasure">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/treasure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 treasure"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treasure/fast">
+				<Option output="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/treasure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 treasure/fast"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/13047/Desktop/leetcode/greedy/cmake-build-debug"/>
 				<Option type="4"/>
@@ -206,6 +416,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/activity.cpp">
+			<Option target="activity"/>
+		</Unit>
 		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/longestPalindrome.cpp">
 			<Option target="longestPalindrome"/>
 		</Unit>
@@ -217,6 +430,18 @@
 		</Unit>
 		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/maxWay.cpp">
 			<Option target="maxWay"/>
+		</Unit>
+		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/miniNum.cpp">
+			<Option target="miniNum"/>
+		</Unit>
+		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/preorder.cpp">
+			<Option target="preorder"/>
+		</Unit>
+		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/treasure.cpp">
+			<Option target="treasure"/>
+		</Unit>
+		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/water.cpp">
+			<Option target="water"/>
 		</Unit>
 		<Unit filename="C:/Users/13047/Desktop/leetcode/greedy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

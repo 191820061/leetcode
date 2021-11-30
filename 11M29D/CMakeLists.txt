@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.20)
+project(11M29D)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(lineSegment lineSegment.cpp)
+add_executable(runner_up runner_up.cpp)
+add_executable(tree_depth tree_depth.cpp)
+add_executable(skiing skiing.cpp)
+add_executable(tower tower.cpp)
+add_executable(mine mine.cpp)
+add_executable(herba herba.cpp)
+add_executable(Fight Fight.cpp)
+add_executable(ball ball.cpp)
+add_executable(ball_dp ball_dp.cpp)

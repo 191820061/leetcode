@@ -52,7 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/greedy.dir/DependInfo.cmake"
+  "CMakeFiles/miniNum.dir/DependInfo.cmake"
   "CMakeFiles/longestPalindrome.dir/DependInfo.cmake"
+  "CMakeFiles/preorder.dir/DependInfo.cmake"
   "CMakeFiles/maxBinTree.dir/DependInfo.cmake"
+  "CMakeFiles/water.dir/DependInfo.cmake"
   "CMakeFiles/maxWay.dir/DependInfo.cmake"
+  "CMakeFiles/activity.dir/DependInfo.cmake"
+  "CMakeFiles/treasure.dir/DependInfo.cmake"
   )
