@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(12M1D)
+
+set(CMAKE_CXX_STANDARD 14)
+add_executable(code code.cpp)
+add_executable(query query.cpp)
+add_executable(A_B A_B.cpp)
+add_executable(firends friends.cpp)
+add_executable(draw draw.cpp)
+add_executable(graphy graphy.cpp)
